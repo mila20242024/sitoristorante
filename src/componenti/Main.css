@@ -1,0 +1,52 @@
+/* .video-container {
+    position: relative;
+    width: 100%;  Assicura che il contenitore del video si espanda al massimo 
+  }
+  
+  .video-container video {
+    width: 100%;
+      Assicura che il video si espanda al massimo all'interno del contenitore 
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+  }
+ #videoprincipale{
+    padding: 0px;
+ } */
+
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 100%;
+  height: 100%;
+}
+video {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+body{
+  font-family: "Cormorant Garamond", serif, !important; 
+  font-weight: 300;
+  font-style: normal;
+}
+.content hr{
+  border-top: 1px solid white;
+    width: 30%;
+}
+.content h2{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}

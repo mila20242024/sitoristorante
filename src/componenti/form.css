@@ -1,0 +1,30 @@
+.contenitoreform{
+    width:100%;
+    padding: 3% 3%;   
+     background-color: #EEEFEB;
+
+    
+}
+#form4Example1, #form4Example2{
+    border-color: rgba(255, 255, 255, 0)!important;
+    border-bottom-color: #b188059e !important;
+    font-family: poppins ;
+    background-color: #EEEFEB;
+    border-radius: 0px !important;
+
+}
+form{
+    font-family: poppins;
+
+}
+form h1{
+    font-family: "Montserrat", sans-serif;
+
+}
+.form-control{
+    background-color: #EEEFEB !important;
+
+}
+#buttonform{
+    background-color: #b188059e !important;
+}

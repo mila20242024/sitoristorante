@@ -1,0 +1,94 @@
+.containerr{
+    width: 75%;
+}
+.card-bevande {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.overlay1{
+    position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.74);
+  z-index: 1;
+}
+.content1 {
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: 2;
+  }
+  .copertinacocktail img{
+    width: 100%;
+    height: 600px;
+  object-fit: cover;
+  }
+  .copertinacocktail{
+    height: 100%;
+    width: 100%;
+  }
+  .contenitoregigante{
+    background-image: url("../assets/paper.jpg");
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .containerr{
+    background-color: transparent;
+    width: 90%;
+
+    
+  }
+  .cocktail-card{
+    background-color: transparent !important;
+border: none !important;
+display: flex;
+align-items: center;
+margin: 40px 0 !important;
+  }
+  .cocktail-card img{
+    border-radius: 50%;
+    width: 70%;
+  }
+  .cocktail-info h2{
+    color:#b188059e;
+
+  }
+  .cocktail-info p{
+    color: white;
+  }
+  .cocktails-containerr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+.btn{
+  border-color:#b188059e !important; 
+  color: #ffffff8a !important;
+  font-family: montserrat !important;
+}
+.content1 h1{
+  font-size: 3em !important;
+
+}
+.content1 p{
+  font-family: montserrat;
+}
+.content1 hr{
+  width: 30%;
+}

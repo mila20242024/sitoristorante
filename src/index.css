@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  line-height: 0;
+}
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  z-index: 2;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.56);
+  z-index: 1;
+}
+
+body {
+  font-family: inherit !important;
+  font-weight: 300;
+  font-style: normal;
+}
+.app-container {
+  position: relative;
+  text-align: center;
+}
+
+/* Imposta l'ordine della Navbar sopra il Main */
+.navbar {
+  position: absolute !important; /* o position: fixed; */
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  color:white !important;
+  --bs-navbar-active-color: white !important;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  position: fixed !important;
+
+}
+.navbar ul {
+  gap: 30px
+}
+.bg-body-tertiary {
+  --bs-bg-opacity: 0.1 !important; /* Imposta l'opacità del colore di sfondo su 0 */
+  background-color: rgba(0, 0, 0, 0.644) !important
+}
+
+#myDiv {
+  padding: 10%;
+  height: 490px;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+#myDiv h2{
+  color:#B48C0B
+}
+#myDiv p{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#myCol{
+  padding:0% !important;
+  height: 490px;
+  overflow: hidden;
+
+}
+/* NPM R */
+.content h1{
+  font-size: 4em !important;
+}
+#carta{
+  background-color: #EEEFEB !important;
+}
+#cartauno{
+  margin: 0px;
+}
+
+#footercolore{
+  background-color: #494449;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+
+}
+#ilmiomenu h1, h3{
+  text-align: center;
+  
+}
+#ilmiomenu h1,h2, h3{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal; 
+  
+
+}
+#ilmiomenu h2{
+  color:#b188059e
+
+}
+#ilmiomenu  p{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+#ilmiomenu{
+  background-image: url(./assets/paper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 50px 20px 20px 20px!important;
+  width: 100%;
+
+}
+.app-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#carta{
+  margin-bottom: 0px !important;
+}
+.navbar button{
+  border-color: #b188059e;
+}
+.navbar svg{
+  fill:#b188059e;
+}
